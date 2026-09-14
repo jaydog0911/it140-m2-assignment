@@ -56,7 +56,7 @@
 >
 > Enter your response below.
 
-TODO: Replace this text with your one-sentence summary of the program's purpose
+  It takes my name and age, figures out the year I was born, and leaves a personalized message.
 
 ### 3. Inputs, Processing, and Outputs
 
@@ -74,7 +74,8 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below. Use a separate numbered bullet for each input.
 
-1. TODO: Replace with your first input and its source (e.g., user input, system value, internal value).
+1.My first input would be the person's name, which they enter into the program.
+2. My second input would be the person's age, which they enter into the program.
 
 > **Where to look:** [SRS](./analysis/name_age_srs.md) → `## 1. Functional Requirements`, especially requirement **1.3**
 >
@@ -82,7 +83,8 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below. Use a separate numbered bullet for each input.
 
-1. TODO: Replace with your first input and its data type (e.g., string, integer, float, Not specified).
+1. The person's name would be called a string.
+2. The person's age would be a whole number integer.
 
 #### IPO: Processing
 
@@ -94,7 +96,8 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter a brief description in your own words below. Use a separate numbered bullet for each process.
 
-1. TODO: Replace with your first processing step in your own words.
+1.The person's age would need to be turned into a whole number so it can be subtracted from the current year to figure out their birth year.
+2.The person's age is subtracted from the current year to figure out their birth year.
 
 #### IPO: Outputs
 
@@ -106,7 +109,7 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below. Use a separate numbered bullet for each output.
 
-1. TODO: Replace with your first output and where it is displayed (e.g., console, file, GUI).
+1. The output would say “Hello Jason! You were born in 1979.” and it would be displayed on the console.
 
 > **Where to look:** [SRS](./analysis/name_age_srs.md) → `## 1. Functional Requirements`, requirement **1.5**, and `## Sample Input and Output`
 >
@@ -114,7 +117,7 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below. Use a separate numbered bullet for each output format.
 
-1. TODO: Replace with your first output format.
+1.It should say hello to the person using their name, then tell them the year they were born.
 
 ### 4. Requirements in My Own Words
 
@@ -130,7 +133,7 @@ TODO: Replace this text with your one-sentence summary of the program's purpose
 >
 > Enter your response below in your own words.
 
-Replace this text with your explanation of requirement 1.2 in your own words.
+1.2 It means to ask the person how old they are and get their age as a number.
 
 #### SRS Requirement 1.3 — Use the Age in an Arithmetic Calculation
 
@@ -140,7 +143,8 @@ Replace this text with your explanation of requirement 1.2 in your own words.
 >
 > Enter your response below in your own words.
 
-TODO: Replace this text with your explanation of requirement 1.3 in your own words.
+1.3 It means to use the person's age in a math problem, like subtracting 25 from 2026.
+  ex. 2026 − 25 = 2001
 
 #### SRS Requirement 1.4 — Calculate the Approximate Birth Year
 
@@ -150,7 +154,7 @@ TODO: Replace this text with your explanation of requirement 1.3 in your own wor
 >
 > Enter your response below.
 
-Replace this text with your explanation of requirement 1.4 in your own words.
+1.4 It means to subtract the person's age from the current year to figure out about what year they were born.
 
 #### SRS Requirement 1.5 — Display the Personalized Result
 
@@ -174,7 +178,9 @@ TODO: Replace this text with your explanation of requirement 1.5 in your own wor
 >
 > Enter your response below. Use a separate numbered bullet for each constraint.
 
-1. TODO: Replace with your first important constraint.
+1. The program must be written in Python and saved as name_age.py.
+2. The program must receive the user's input and show the output in the console.
+3. The program must run without a Python error when given valid input.
 
 #### Special or Edge Cases
 
@@ -186,17 +192,19 @@ TODO: Replace this text with your explanation of requirement 1.5 in your own wor
 >
 > Enter your response below. Use a separate numbered bullet for each edge case.
 
-1. TODO: Replace with your first edge case.
+1. Test the program with an age of 0.
+2. Test the program with a negative age, such as -5.
+3. Test the program with an age over 100, such as 105.
 
 ### 6. Analyze Checkpoint
 
 > Before continuing to the Design phase, make sure:
 >
-> * [ ] I can explain the program's purpose in my own words.
-> * [ ] I identified the program's inputs, processing, and outputs.
-> * [ ] I understand the selected functional requirements.
-> * [ ] I identified important constraints and edge cases.
-> * [ ] I did not add requirements that are not stated in the SRS.
+> * [x] I can explain the program's purpose in my own words.
+> * [x] I identified the program's inputs, processing, and outputs.
+> * [x] I understand the selected functional requirements.
+> * [x] I identified important constraints and edge cases.
+> * [x] I did not add requirements that are not stated in the SRS.
 >
 > When these checks are complete, continue to the [Design phase](./design/README.md).
 
