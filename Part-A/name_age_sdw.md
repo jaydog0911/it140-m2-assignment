@@ -218,14 +218,14 @@ TODO: Replace this text with your explanation of requirement 1.5 in your own wor
 
 > Before completing the Design sections of this worksheet, review:
 >
-> * [ ] [Software Design Document (SDD)](./design/name_age_sdd.md)
+> * [x] [Software Design Document (SDD)](./design/name_age_sdd.md)
 >   * `## 2. Solution Overview`
 >   * `## 4. Data Design`
 >   * `## 5. Interface and Input/Output Design`
 >   * `## 6. Program Logic and Control Flow`
 >   * `### 6.1 Main Processing Steps`
-> * [ ] [Flowchart](./design/name_age.drawio) → **Flowchart** page; follow the path from **Start** to **End**
-> * [ ] [Pseudocode](./design/name_age.pseudo) → read the algorithm from **START name_age** through **END name_age**
+> * [x] [Flowchart](./design/name_age.drawio) → **Flowchart** page; follow the path from **Start** to **End**
+> * [x] [Pseudocode](./design/name_age.pseudo) → read the algorithm from **START name_age** through **END name_age**
 >
 > Remember:
 >
@@ -251,7 +251,7 @@ TODO: Replace this text with your explanation of requirement 1.5 in your own wor
 >
 > Enter your response below.
 
-TODO: Replace this text with your explanation of how the design addresses requirement 1.3.
+  The design takes the age the user enters and converts it into an integer so it can be used to calculate the birth year.
 
 #### SRS Requirement 1.4
 
@@ -265,7 +265,7 @@ TODO: Replace this text with your explanation of how the design addresses requir
 >
 > Enter your response below.
 
-TODO: Replace this text with your explanation of how the design addresses requirement 1.4.
+  The design subtracts the user's age from the current year to calculate their approximate birth year.
 
 ### 9. Check the Plan With an Example
 
@@ -281,10 +281,9 @@ TODO: Replace this text with your explanation of how the design addresses requir
 >
 > Enter your response below.
 
-* Current year: TODO: Replace with the current year from Test 1.
-* User name: TODO: Replace with the user name from Test 1.
-* User age: TODO: Replace with the user age from Test 1.
-
+* Current year: 2026
+* User name: Jordan
+* User age: 25
 #### Test Processing
 
 > **Where to look:**
@@ -297,7 +296,7 @@ TODO: Replace this text with your explanation of how the design addresses requir
 >
 > Enter your calculation below.
 
-User's approximate birth year = TODO: Replace with the calculation using the Test 1 values (e.g., current year - user age).
+User's approximate birth year = 2026 - 25 = 2001
 
 #### Expected Output
 
