@@ -29,8 +29,8 @@ def main() -> None:
     """Run the name-age program."""
 
     # Get user input.
-    name = input("Enter your name: ")
-    age = int(input("Enter your age: "))
+    name = input("What is your name: ")
+    age = int(input("What is your age: "))
 
     # Calculate user's approximate birth year.
     birth_year = CURRENT_YEAR - age
