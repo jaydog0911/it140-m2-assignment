@@ -30,7 +30,7 @@ def main() -> None:
 
     # Get user input.
     name = input("What is your name? ")
-    age = int(input("What is your age? "))
+    age = int(input("How old are you? "))
 
     # Calculate user's approximate birth year.
     birth_year = CURRENT_YEAR - age
