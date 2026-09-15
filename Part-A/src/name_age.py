@@ -1,4 +1,4 @@
-Gets a person's name and age and figures out their approximate birth year.
+"""Gets a person's name and age and figures out their approximate birth year.
 
 Input:
     The person's name is a string entered by the user.
